@@ -1,6 +1,6 @@
 // Supabase bağlantı bilgileri - Bunları daha sonra dolduracağız
-const SUPABASE_URL = 'BURAYA_SUPABASE_URL_GELECEK';
-const SUPABASE_KEY = 'BURAYA_SUPABASE_KEY_GELECEK';
+const SUPABASE_URL = 'https://djcprxrvwzobmgicqlpm.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRqY3ByeHJ2d3pvYm1naWNxbHBtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc1MTcyMjksImV4cCI6MjA4MzA5MzIyOX0.MyY6wh7UW4LvfXO892nXwtY6dMZ_rrMBrc_C5dC84lg';
 
 // Supabase client oluştur
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
