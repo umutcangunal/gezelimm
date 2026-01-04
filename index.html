@@ -431,6 +431,12 @@
 
     <!-- Supabase SDK -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script>
+        // Supabase bağlantı bilgileri
+        const SUPABASE_URL = 'https://djcprxrvwzobmgicqlpm.supabase.co';
+        const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRqY3ByeHJ2d3pvYm1naWNxbHBtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc1MTcyMjksImV4cCI6MjA4MzA5MzIyOX0.MyY6wh7UW4LvfXO892nXwtY6dMZ_rrMBrc_C5dC84lg';
+        const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+    </script>
     <script src="app.js"></script>
 </body>
 </html>

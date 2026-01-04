@@ -1,9 +1,4 @@
-// Supabase bağlantı bilgileri - Bunları daha sonra dolduracağız
-const SUPABASE_URL = 'https://djcprxrvwzobmgicqlpm.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRqY3ByeHJ2d3pvYm1naWNxbHBtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njc1MTcyMjksImV4cCI6MjA4MzA5MzIyOX0.MyY6wh7UW4LvfXO892nXwtY6dMZ_rrMBrc_C5dC84lg';
 
-// Supabase client oluştur
-const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // Türkiye illeri ve İstanbul ilçeleri
 const cities = ["Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Amasya", "Ankara", "Antalya", "Artvin", "Aydın", "Balıkesir", "Bilecik", "Bingöl", "Bitlis", "Bolu", "Burdur", "Bursa", "Çanakkale", "Çankırı", "Çorum", "Denizli", "Diyarbakır", "Edirne", "Elazığ", "Erzincan", "Erzurum", "Eskişehir", "Gaziantep", "Giresun", "Gümüşhane", "Hakkari", "Hatay", "Isparta", "İstanbul", "İzmir", "Kars", "Kastamonu", "Kayseri", "Kırklareli", "Kırşehir", "Kocaeli", "Konya", "Kütahya", "Malatya", "Manisa", "Kahramanmaraş", "Mardin", "Muğla", "Muş", "Nevşehir", "Niğde", "Ordu", "Rize", "Sakarya", "Samsun", "Siirt", "Sinop", "Sivas", "Tekirdağ", "Tokat", "Trabzon", "Tunceli", "Şanlıurfa", "Uşak", "Van", "Yozgat", "Zonguldak", "Aksaray", "Bayburt", "Karaman", "Kırıkkale", "Batman", "Şırnak", "Bartın", "Ardahan", "Iğdır", "Yalova", "Karabük", "Kilis", "Osmaniye", "Düzce"];
